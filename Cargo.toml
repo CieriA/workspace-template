@@ -1,0 +1,25 @@
+[workspace]
+resolver = "3"
+members = []
+
+[workspace.package]
+version = "0.1.0"
+rust-version = "1.90.0"
+edition = "2024"
+authors = ["CieriA"]
+license = "ISC"
+repository = "https://github.com/CieriA/<UNK>"
+
+[workspace.lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+non_snake_case = "warn"
+missing_panic_docs = "forbid"
+undocumented_unsafe_blocks = "forbid"
+redudant_clone = "warn"
+# unsafe_code = "warn"
+
+[workspace.lints.clippy]
+pedantic = "warn"
+module_name_repetitions = "allow"
+
+[workspace.dependencies]

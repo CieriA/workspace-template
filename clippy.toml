@@ -1,0 +1,13 @@
+disallowed-names = [# generic names
+    "temp",
+    "data",
+    # lists names
+    "vec",
+    "list",
+    "collection",
+    "string",
+    "iter",
+    # default
+    ".."
+]
+cognitive-complexity-treshold = 15
