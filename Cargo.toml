@@ -27,3 +27,8 @@ pedantic = "warn"
 module_name_repetitions = "allow"
 wildcard_imports = "forbid"
 cargo_common_metadata = "warn"
+
+[workspace.lints.rustdoc]
+broken_intra_doc_links = "deny"
+private_intra_doc_links = "warn"
+invalid_html_tags = "warn"
