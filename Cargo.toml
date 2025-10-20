@@ -13,14 +13,17 @@ repository = ""
 [workspace.dependencies]
 
 [workspace.lints.rust]
+# unsafe_code = "warn"
 unsafe_op_in_unsafe_fn = "deny"
 non_snake_case = "warn"
 missing_panic_docs = "forbid"
 undocumented_unsafe_blocks = "forbid"
 redudant_clone = "warn"
-# unsafe_code = "warn"
+unreachable_pub = "warn"
+missing_debug_implementation = "warn"
 
 [workspace.lints.clippy]
 pedantic = "warn"
 module_name_repetitions = "allow"
 wildcard_imports = "forbid"
+cargo_common_metadata = "warn"
