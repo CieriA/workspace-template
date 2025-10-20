@@ -1,14 +1,11 @@
-# visibility
 tab_spaces = 4
 max_width = 80
 # comment_width = 80 # NIGHTLY-ONLY
 # wrap_comments = true # NIGHTLY-ONLY
 
-# reorder
 # group_imports = "StdExternalCrate" # NIGHTLY-ONLY
 # imports_granularity = "One" # NIGHTLY-ONLY
 reorder_imports = true
 reorder_modules = true
 
-# others
 merge_derives = true
