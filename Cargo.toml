@@ -10,6 +10,8 @@ authors = [""]
 license = "ISC"
 repository = ""
 
+[workspace.dependencies]
+
 [workspace.lints.rust]
 unsafe_op_in_unsafe_fn = "deny"
 non_snake_case = "warn"
@@ -21,5 +23,3 @@ redudant_clone = "warn"
 [workspace.lints.clippy]
 pedantic = "warn"
 module_name_repetitions = "allow"
-
-[workspace.dependencies]
