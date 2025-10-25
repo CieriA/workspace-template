@@ -8,4 +8,4 @@ disallowed-names = [
     "iter",
     ".."
 ]
-cognitive-complexity-treshold = 15
+cognitive-complexity-threshold = 15
