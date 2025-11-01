@@ -10,7 +10,7 @@ edition = "2024"
 authors = [""]
 license = "ISC"
 readme = "README.md"
-repository = ""
+repository = "https://github.com/your-name/your-repo"
 keywords = []
 categories = []
 
