@@ -3,21 +3,17 @@ resolver = "3"
 members = []
 
 [workspace.package]
-description = ""
 version = "0.1.0"
-rust-version = "1.91.0"
+rust-version = "1.92.0"
 edition = "2024"
-authors = [""]
-license = "ISC"
+authors = []
+license = ""
 readme = "README.md"
 repository = "https://github.com/your-name/your-repo"
-keywords = []
-categories = []
 
 [workspace.dependencies]
 
 [workspace.lints.rust]
-# unsafe_code = "warn"
 unsafe_op_in_unsafe_fn = "deny"
 non_snake_case = "warn"
 unreachable_pub = "warn"
